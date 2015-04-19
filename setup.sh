@@ -5,6 +5,11 @@
 # Run this script when initially setting up a new computer
 ############################
 
+# configure Git
+echo "Configuring git and Github"
+git config --global user.name "Derek Wheelden"
+git config --global user.email "derek.wheelden@gmail.com"
+
 # install Homebrew
 echo "Installing Homebrew"
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
